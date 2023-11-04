@@ -1,0 +1,87 @@
+#heading{
+    font-size: larger;
+    color: rgba(147, 34, 45, 0.558);
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+ 
+  
+  .h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 50%;
+    background-color: rgba(165, 42, 42, 0.324);
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .btncenter{
+    width: 50%;
+    
+    margin: auto;
+  }
+  #h2center{
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .h3center{
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+     border-radius:20px ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+  }
+ .p1{
+    font-size: large;
+    font-weight: bold;
+ }
+    
+ @media (min-width: 200px) and (max-width: 992px) {
+    .h1{
+        width: 66%;
+        font-size: medium;
+        font-weight: bold;
+        padding: 6px;
+    }
+    .btncenter{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+    #btn12{
+        /* width: 10%; */
+        font-size: 8px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50px;
+        padding: 3px;
+        
+
+    }
+    #btn123{
+        /* width: 10%; */
+        font-size: 8px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 30px;
+        padding: 5px;
+        
+
+    }
+    #mybox{
+        width: 98%;
+    }
+    #h2center{
+        width: 100%;
+    }
+ }
