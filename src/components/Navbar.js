@@ -13,7 +13,7 @@ export default function Navbar (props) {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ms-5" >
-        <a className="nav-link active"  href="#">Home</a>
+        <a className="nav-link active"  href="/">Home</a>
         {/* <Link className="nav-link active"  to="/about">About</Link> */}
         {/* <Link className="nav-link active"  to="/textform">Textform</Link> */}
        
